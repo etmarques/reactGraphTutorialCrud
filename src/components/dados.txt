@@ -1,0 +1,919 @@
+site id = 8a15a256-bff1-4fda-9a22-b677afcbd3c8
+list id = fc5b3a53-3474-463f-94fe-4a314ab45d59
+
+https://graph.microsoft.com/v1.0/sites/8a15a256-bff1-4fda-9a22-b677afcbd3c8/lists/fc5b3a53-3474-463f-94fe-4a314ab45d59
+
+
+
+{
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('8a15a256-bff1-4fda-9a22-b677afcbd3c8')/lists('fc5b3a53-3474-463f-94fe-4a314ab45d59')/columns",
+    "@microsoft.graph.tips": "Use $select to choose only the properties your app needs, as this can lead to performance improvements. For example: GET sites('<guid>')/lists('<guid>')/columns?$select=boolean,calculated",
+    "value": [
+        {
+            "columnGroup": "Custom Columns",
+            "description": "",
+            "displayName": "Departamento da Pessoa",
+            "enforceUniqueValues": false,
+            "hidden": false,
+            "id": "fa564e0f-0c70-4ab9-b863-0177e6ddd247",
+            "indexed": false,
+            "name": "Title",
+            "readOnly": false,
+            "required": false,
+            "text": {
+                "allowMultipleLines": false,
+                "appendChangesToExistingText": false,
+                "linesForEditing": 0,
+                "maxLength": 255
+            }
+        },
+        {
+            "columnGroup": "Custom Columns",
+            "description": "",
+            "displayName": "Color Tag",
+            "enforceUniqueValues": false,
+            "hidden": false,
+            "id": "76d13cd2-1bae-45a5-8b74-545b87b65037",
+            "indexed": false,
+            "name": "_ColorTag",
+            "readOnly": true,
+            "required": false,
+            "text": {
+                "allowMultipleLines": false,
+                "appendChangesToExistingText": false,
+                "linesForEditing": 0,
+                "maxLength": 255
+            }
+        },
+        {
+            "columnGroup": "Custom Columns",
+            "description": "",
+            "displayName": "Compliance Asset Id",
+            "enforceUniqueValues": false,
+            "hidden": false,
+            "id": "3a6b296c-3f50-445c-a13f-9c679ea9dda3",
+            "indexed": false,
+            "name": "ComplianceAssetId",
+            "readOnly": true,
+            "required": false,
+            "text": {
+                "allowMultipleLines": false,
+                "appendChangesToExistingText": false,
+                "linesForEditing": 0,
+                "maxLength": 255
+            }
+        },
+        {
+            "columnGroup": "Custom Columns",
+            "description": "",
+            "displayName": "Nome da Pessoa",
+            "enforceUniqueValues": false,
+            "hidden": false,
+            "id": "c4da0339-9084-46f3-8094-64d5defdfcef",
+            "indexed": false,
+            "name": "usu_x00e1_rio",
+            "readOnly": false,
+            "required": false,
+            "personOrGroup": {
+                "allowMultipleSelection": false,
+                "displayAs": "nameWithPresence",
+                "chooseFromType": "peopleOnly"
+            }
+        },
+        {
+            "columnGroup": "Custom Columns",
+            "description": "",
+            "displayName": "Local da pessoa",
+            "enforceUniqueValues": false,
+            "hidden": false,
+            "id": "7247ab5c-11b8-4b4f-8445-5b420bdeff31",
+            "indexed": false,
+            "name": "Local",
+            "readOnly": false,
+            "required": false,
+            "text": {
+                "allowMultipleLines": false,
+                "appendChangesToExistingText": false,
+                "linesForEditing": 0,
+                "maxLength": 255
+            }
+        },
+        {
+            "columnGroup": "Custom Columns",
+            "description": "",
+            "displayName": "Nome",
+            "enforceUniqueValues": false,
+            "hidden": false,
+            "id": "246d8b91-593c-4d90-aa24-e83f39261509",
+            "indexed": false,
+            "name": "Nome",
+            "readOnly": false,
+            "required": false,
+            "text": {
+                "allowMultipleLines": false,
+                "appendChangesToExistingText": false,
+                "linesForEditing": 0,
+                "maxLength": 255
+            }
+        },
+        {
+            "columnGroup": "Custom Columns",
+            "description": "",
+            "displayName": "Departamento da Pessoa",
+            "enforceUniqueValues": false,
+            "hidden": false,
+            "id": "82642ec8-ef9b-478f-acf9-31f7d45fbc31",
+            "indexed": false,
+            "name": "LinkTitle",
+            "readOnly": true,
+            "required": false
+        },
+        {
+            "columnGroup": "Custom Columns",
+            "description": "",
+            "displayName": "Departamento da Pessoa",
+            "enforceUniqueValues": false,
+            "hidden": false,
+            "id": "bc91a437-52e7-49e1-8c4e-4698904b2b6d",
+            "indexed": false,
+            "name": "LinkTitleNoMenu",
+            "readOnly": true,
+            "required": false
+        },
+        {
+            "columnGroup": "Custom Columns",
+            "description": "",
+            "displayName": "ID",
+            "enforceUniqueValues": false,
+            "hidden": false,
+            "id": "1d22ea11-1e32-424e-89ab-9fedbadb6ce1",
+            "indexed": false,
+            "name": "ID",
+            "readOnly": true,
+            "required": false
+        },
+        {
+            "columnGroup": "_Hidden",
+            "description": "",
+            "displayName": "Content Type",
+            "enforceUniqueValues": false,
+            "hidden": false,
+            "id": "c042a256-787d-4a6f-8a8a-cf6ab767f12d",
+            "indexed": false,
+            "name": "ContentType",
+            "readOnly": false,
+            "required": false
+        },
+        {
+            "columnGroup": "Custom Columns",
+            "description": "",
+            "displayName": "Modified",
+            "enforceUniqueValues": false,
+            "hidden": false,
+            "id": "28cf69c5-fa48-462a-b5cd-27b6f9d2bd5f",
+            "indexed": false,
+            "name": "Modified",
+            "readOnly": true,
+            "required": false,
+            "dateTime": {
+                "displayAs": "default",
+                "format": "dateTime"
+            }
+        },
+        {
+            "columnGroup": "Custom Columns",
+            "description": "",
+            "displayName": "Created",
+            "enforceUniqueValues": false,
+            "hidden": false,
+            "id": "8c06beca-0777-48f7-91c7-6da68bc07b69",
+            "indexed": false,
+            "name": "Created",
+            "readOnly": true,
+            "required": false,
+            "dateTime": {
+                "displayAs": "default",
+                "format": "dateTime"
+            }
+        },
+        {
+            "columnGroup": "Custom Columns",
+            "description": "",
+            "displayName": "Created By",
+            "enforceUniqueValues": false,
+            "hidden": false,
+            "id": "1df5e554-ec7e-46a6-901d-d85a3881cb18",
+            "indexed": false,
+            "name": "Author",
+            "readOnly": true,
+            "required": false,
+            "personOrGroup": {
+                "allowMultipleSelection": false,
+                "displayAs": "nameWithPresence",
+                "chooseFromType": "peopleAndGroups"
+            }
+        },
+        {
+            "columnGroup": "Custom Columns",
+            "description": "",
+            "displayName": "Modified By",
+            "enforceUniqueValues": false,
+            "hidden": false,
+            "id": "d31655d1-1d5b-4511-95a1-7a09e9b75bf2",
+            "indexed": false,
+            "name": "Editor",
+            "readOnly": true,
+            "required": false,
+            "personOrGroup": {
+                "allowMultipleSelection": false,
+                "displayAs": "nameWithPresence",
+                "chooseFromType": "peopleAndGroups"
+            }
+        },
+        {
+            "columnGroup": "Custom Columns",
+            "description": "",
+            "displayName": "Version",
+            "enforceUniqueValues": false,
+            "hidden": false,
+            "id": "dce8262a-3ae9-45aa-aab4-83bd75fb738a",
+            "indexed": false,
+            "name": "_UIVersionString",
+            "readOnly": true,
+            "required": false,
+            "text": {
+                "allowMultipleLines": false,
+                "appendChangesToExistingText": false,
+                "linesForEditing": 0,
+                "maxLength": 255
+            }
+        },
+        {
+            "columnGroup": "Custom Columns",
+            "description": "",
+            "displayName": "Attachments",
+            "enforceUniqueValues": false,
+            "hidden": false,
+            "id": "67df98f4-9dec-48ff-a553-29bece9c5bf4",
+            "indexed": false,
+            "name": "Attachments",
+            "readOnly": false,
+            "required": false
+        },
+        {
+            "columnGroup": "Custom Columns",
+            "description": "",
+            "displayName": "Edit",
+            "enforceUniqueValues": false,
+            "hidden": false,
+            "id": "503f1caa-358e-4918-9094-4a2cdc4bc034",
+            "indexed": false,
+            "name": "Edit",
+            "readOnly": true,
+            "required": false
+        },
+        {
+            "columnGroup": "Custom Columns",
+            "description": "",
+            "displayName": "Type",
+            "enforceUniqueValues": false,
+            "hidden": false,
+            "id": "081c6e4c-5c14-4f20-b23e-1a71ceb6a67c",
+            "indexed": false,
+            "name": "DocIcon",
+            "readOnly": true,
+            "required": false
+        },
+        {
+            "columnGroup": "Custom Columns",
+            "description": "",
+            "displayName": "Item Child Count",
+            "enforceUniqueValues": false,
+            "hidden": false,
+            "id": "b824e17e-a1b3-426e-aecf-f0184d900485",
+            "indexed": false,
+            "name": "ItemChildCount",
+            "readOnly": true,
+            "required": false,
+            "lookup": {
+                "allowMultipleValues": false,
+                "allowUnlimitedLength": false,
+                "columnName": "ItemChildCount",
+                "listId": "",
+                "primaryLookupColumnId": "ID"
+            }
+        },
+        {
+            "columnGroup": "Custom Columns",
+            "description": "",
+            "displayName": "Folder Child Count",
+            "enforceUniqueValues": false,
+            "hidden": false,
+            "id": "960ff01f-2b6d-4f1b-9c3f-e19ad8927341",
+            "indexed": false,
+            "name": "FolderChildCount",
+            "readOnly": true,
+            "required": false,
+            "lookup": {
+                "allowMultipleValues": false,
+                "allowUnlimitedLength": false,
+                "columnName": "FolderChildCount",
+                "listId": "",
+                "primaryLookupColumnId": "ID"
+            }
+        },
+        {
+            "columnGroup": "Custom Columns",
+            "description": "",
+            "displayName": "Label setting",
+            "enforceUniqueValues": false,
+            "hidden": false,
+            "id": "ccc1037f-f65e-434a-868e-8c98af31fe29",
+            "indexed": false,
+            "name": "_ComplianceFlags",
+            "readOnly": true,
+            "required": false,
+            "lookup": {
+                "allowMultipleValues": false,
+                "allowUnlimitedLength": false,
+                "columnName": "ComplianceFlags",
+                "listId": "",
+                "primaryLookupColumnId": "ID"
+            }
+        },
+        {
+            "columnGroup": "Custom Columns",
+            "description": "",
+            "displayName": "Retention label",
+            "enforceUniqueValues": false,
+            "hidden": false,
+            "id": "d4b6480a-4bed-4094-9a52-30181ea38f1d",
+            "indexed": false,
+            "name": "_ComplianceTag",
+            "readOnly": true,
+            "required": false,
+            "lookup": {
+                "allowMultipleValues": false,
+                "allowUnlimitedLength": false,
+                "columnName": "ComplianceTag",
+                "listId": "",
+                "primaryLookupColumnId": "ID"
+            }
+        },
+        {
+            "columnGroup": "Custom Columns",
+            "description": "",
+            "displayName": "Retention label Applied",
+            "enforceUniqueValues": false,
+            "hidden": false,
+            "id": "92be610e-ddbb-49f4-b3b1-5c2bc768df8f",
+            "indexed": false,
+            "name": "_ComplianceTagWrittenTime",
+            "readOnly": true,
+            "required": false,
+            "lookup": {
+                "allowMultipleValues": false,
+                "allowUnlimitedLength": false,
+                "columnName": "ComplianceTagWrittenTime",
+                "listId": "",
+                "primaryLookupColumnId": "ID"
+            }
+        },
+        {
+            "columnGroup": "Custom Columns",
+            "description": "",
+            "displayName": "Label applied by",
+            "enforceUniqueValues": false,
+            "hidden": false,
+            "id": "418d7676-2d6f-42cf-a16a-e43d2971252a",
+            "indexed": false,
+            "name": "_ComplianceTagUserId",
+            "readOnly": true,
+            "required": false,
+            "lookup": {
+                "allowMultipleValues": false,
+                "allowUnlimitedLength": false,
+                "columnName": "ComplianceTagUserId",
+                "listId": "",
+                "primaryLookupColumnId": "ID"
+            }
+        },
+        {
+            "columnGroup": "Custom Columns",
+            "description": "",
+            "displayName": "Item is a Record",
+            "enforceUniqueValues": false,
+            "hidden": false,
+            "id": "8382d247-72a9-44b1-9794-7b177edc89f3",
+            "indexed": false,
+            "name": "_IsRecord",
+            "readOnly": true,
+            "required": false
+        },
+        {
+            "columnGroup": "Custom Columns",
+            "description": "",
+            "displayName": "App Created By",
+            "enforceUniqueValues": false,
+            "hidden": false,
+            "id": "6bfaba20-36bf-44b5-a1b2-eb6346d49716",
+            "indexed": false,
+            "name": "AppAuthor",
+            "readOnly": true,
+            "required": false,
+            "lookup": {
+                "allowMultipleValues": false,
+                "allowUnlimitedLength": false,
+                "columnName": "Title",
+                "listId": "AppPrincipals"
+            }
+        },
+        {
+            "columnGroup": "Custom Columns",
+            "description": "",
+            "displayName": "App Modified By",
+            "enforceUniqueValues": false,
+            "hidden": false,
+            "id": "e08400f3-c779-4ed2-a18c-ab7f34caa318",
+            "indexed": false,
+            "name": "AppEditor",
+            "readOnly": true,
+            "required": false,
+            "lookup": {
+                "allowMultipleValues": false,
+                "allowUnlimitedLength": false,
+                "columnName": "Title",
+                "listId": "AppPrincipals"
+            }
+        }
+    ]
+}
+
+
+AppContext.tsx:
+
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
+
+import React, {
+  useContext,
+  createContext,
+  useState,
+  MouseEventHandler,
+  useEffect
+} from 'react';
+import { AuthCodeMSALBrowserAuthenticationProvider } from '@microsoft/microsoft-graph-client/authProviders/authCodeMsalBrowser';
+import { InteractionType, PublicClientApplication } from '@azure/msal-browser';
+import { useMsal } from '@azure/msal-react';
+
+import { getUser } from './GraphService';
+import config from './Config';
+
+// <AppContextSnippet>
+export interface AppUser {
+  displayName?: string,
+  email?: string,
+  avatar?: string,
+  timeZone?: string,
+  timeFormat?: string
+};
+
+export interface AppError {
+  message: string,
+  debug?: string
+};
+
+type AppContext = {
+  user?: AppUser;
+  error?: AppError;
+  signIn?: MouseEventHandler<HTMLElement>;
+  signOut?: MouseEventHandler<HTMLElement>;
+  displayError?: Function;
+  clearError?: Function;
+  authProvider?: AuthCodeMSALBrowserAuthenticationProvider;
+}
+
+const appContext = createContext<AppContext>({
+  user: undefined,
+  error: undefined,
+  signIn: undefined,
+  signOut: undefined,
+  displayError: undefined,
+  clearError: undefined,
+  authProvider: undefined
+});
+
+export function useAppContext(): AppContext {
+  return useContext(appContext);
+}
+
+interface ProvideAppContextProps {
+  children: React.ReactNode;
+}
+
+export default function ProvideAppContext({ children }: ProvideAppContextProps) {
+  const auth = useProvideAppContext();
+  return (
+    <appContext.Provider value={auth}>
+      {children}
+    </appContext.Provider>
+  );
+}
+// </AppContextSnippet>
+
+function useProvideAppContext() {
+  const msal = useMsal();
+  const [user, setUser] = useState<AppUser | undefined>(undefined);
+  const [error, setError] = useState<AppError | undefined>(undefined);
+
+  const displayError = (message: string, debug?: string) => {
+    setError({ message, debug });
+  }
+
+  const clearError = () => {
+    setError(undefined);
+  }
+
+  // <AuthProviderSnippet>
+  // Used by the Graph SDK to authenticate API calls
+  const authProvider = new AuthCodeMSALBrowserAuthenticationProvider(
+    msal.instance as PublicClientApplication,
+    {
+      account: msal.instance.getActiveAccount()!,
+      scopes: config.scopes,
+      interactionType: InteractionType.Popup
+    }
+  );
+  // </AuthProviderSnippet>
+
+  // <UseEffectSnippet>
+  useEffect(() => {
+    const checkUser = async () => {
+      if (!user) {
+        try {
+          // Check if user is already signed in
+          const account = msal.instance.getActiveAccount();
+          if (account) {
+            // Get the user from Microsoft Graph
+            const user = await getUser(authProvider);
+
+            setUser({
+              displayName: user.displayName || '',
+              email: user.mail || user.userPrincipalName || '',
+              timeFormat: user.mailboxSettings?.timeFormat || 'h:mm a',
+              timeZone: user.mailboxSettings?.timeZone || 'UTC'
+            });
+          }
+        } catch (err: any) {
+          displayError(err.message);
+        }
+      }
+    };
+    checkUser();
+  });
+  // </UseEffectSnippet>
+
+  // <SignInSnippet>
+  const signIn = async () => {
+    await msal.instance.loginPopup({
+      scopes: config.scopes,
+      prompt: 'select_account'
+    });
+
+    // Get the user from Microsoft Graph
+    const user = await getUser(authProvider);
+
+    setUser({
+      displayName: user.displayName || '',
+      email: user.mail || user.userPrincipalName || '',
+      timeFormat: user.mailboxSettings?.timeFormat || '',
+      timeZone: user.mailboxSettings?.timeZone || 'UTC'
+    });
+  };
+  // </SignInSnippet>
+
+  // <SignOutSnippet>
+  const signOut = async () => {
+    await msal.instance.logoutPopup();
+    setUser(undefined);
+  };
+  // </SignOutSnippet>
+
+  return {
+    user,
+    error,
+    signIn,
+    signOut,
+    displayError,
+    clearError,
+    authProvider
+  };
+} 
+
+Config.tsx:
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
+
+const config = {
+    appId: 'b0a9fcde-855c-4a74-9190-da11ee9dca64',
+    authority: "https://login.microsoftonline.com/4d79d37a-1e4e-4a39-9fde-f1631cb607d4",
+    redirectUri: 'http://localhost:3000',
+    scopes: [
+      'user.read',
+      'mailboxsettings.read',
+      'calendars.readwrite'
+    ]
+  };
+  
+  export default config;
+
+ErrorMessage.tsx:
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
+
+GraphService.tsx:
+// <GetUserSnippet>
+import { Client, GraphRequestOptions, PageCollection, PageIterator } from '@microsoft/microsoft-graph-client';
+import { AuthCodeMSALBrowserAuthenticationProvider } from '@microsoft/microsoft-graph-client/authProviders/authCodeMsalBrowser';
+import { endOfWeek, startOfWeek } from 'date-fns';
+import { toZonedTime } from 'date-fns-tz';
+import { User, Event } from '@microsoft/microsoft-graph-types';
+
+let graphClient: Client | undefined = undefined;
+
+function ensureClient(authProvider: AuthCodeMSALBrowserAuthenticationProvider) {
+  if (!graphClient) {
+    graphClient = Client.initWithMiddleware({
+      authProvider: authProvider
+    });
+  }
+
+  return graphClient;
+}
+
+export async function getUser(authProvider: AuthCodeMSALBrowserAuthenticationProvider): Promise<User> {
+  ensureClient(authProvider);
+
+  // Return the /me API endpoint result as a User object
+  const user: User = await graphClient!.api('/me')
+    // Only retrieve the specific fields needed
+    .select('displayName,mail,mailboxSettings,userPrincipalName')
+    .get();
+
+  return user;
+}
+// </GetUserSnippet>
+
+// <GetUserWeekCalendarSnippet>
+export async function getUserWeekCalendar(authProvider: AuthCodeMSALBrowserAuthenticationProvider,
+  timeZone: string): Promise<Event[]> {
+  ensureClient(authProvider);
+
+  // Generate startDateTime and endDateTime query params
+  // to display a 7-day window
+  const now = new Date();
+  const startDateTime = toZonedTime(startOfWeek(now), timeZone).toISOString();
+  const endDateTime = toZonedTime(endOfWeek(now), timeZone).toISOString();
+
+  // GET /me/calendarview?startDateTime=''&endDateTime=''
+  // &$select=subject,organizer,start,end
+  // &$orderby=start/dateTime
+  // &$top=50
+  var response: PageCollection = await graphClient!
+    .api('/me/calendarview')
+    .header('Prefer', `outlook.timezone="${timeZone}"`)
+    .query({ startDateTime: startDateTime, endDateTime: endDateTime })
+    .select('subject,organizer,start,end')
+    .orderby('start/dateTime')
+    .top(25)
+    .get();
+
+  if (response["@odata.nextLink"]) {
+    // Presence of the nextLink property indicates more results are available
+    // Use a page iterator to get all results
+    var events: Event[] = [];
+
+    // Must include the time zone header in page
+    // requests too
+    var options: GraphRequestOptions = {
+      headers: { 'Prefer': `outlook.timezone="${timeZone}"` }
+    };
+
+    var pageIterator = new PageIterator(graphClient!, response, (event) => {
+      events.push(event);
+      return true;
+    }, options);
+
+    await pageIterator.iterate();
+
+    return events;
+  } else {
+
+    return response.value;
+  }
+}
+// </GetUserWeekCalendarSnippet>
+
+// <CreateEventSnippet>
+export async function createEvent(authProvider: AuthCodeMSALBrowserAuthenticationProvider,
+  newEvent: Event): Promise<Event> {
+  ensureClient(authProvider);
+
+  // POST /me/events
+  // JSON representation of the new event is sent in the
+  // request body
+  return await graphClient!
+    .api('/me/events')
+    .post(newEvent);
+}
+// </CreateEventSnippet>
+
+// Função para obter uma lista do SharePoint
+export async function getList(authProvider: AuthCodeMSALBrowserAuthenticationProvider, siteId: string, listId: string) {
+  ensureClient(authProvider);
+
+  try {
+    const list = await graphClient!.api(`/sites/${siteId}/lists/${listId}`).get();
+    return list;
+  } catch (error) {
+    console.error('Erro ao obter a lista:', error);
+    throw error;
+  }
+}
+
+Table.tsx
+import { useEffect, useState } from "react";
+import { useAppContext } from "./AppContext"
+import { getList } from "./GraphService"
+
+const Table = () => {
+
+  const { authProvider, user } = useAppContext();
+  const siteId = '8a15a256-bff1-4fda-9a22-b677afcbd3c8';
+  const listId = 'fc5b3a53-3474-463f-94fe-4a314ab45d59';
+  const [jsonText, setJsonText] = useState<string>('');
+  
+  //quero que retorne uma string de texto com o json obtido pela getlist
+  
+  const fetchList = async () => {
+    try {
+      const list = await getList(authProvider!, siteId, listId);
+      console.log ('Detalhes da lista: ', list);
+      setJsonText(JSON.stringify(list))
+    } catch (error) {
+        console.error('Deu chablau: ', error)
+    }
+  };
+    
+  useEffect(() => {
+    fetchList();
+  },[]);
+  
+  return (
+    <>
+      <div>{user == undefined ? 'não estou logado': 'a tabela precisa aparecer aqui embaixo'}</div>
+      <div>{jsonText}</div>
+    </>
+  )
+}
+
+export default Table
+
+
+
+App.tsx:
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Container } from 'react-bootstrap';
+import { MsalProvider } from '@azure/msal-react'
+import { IPublicClientApplication } from '@azure/msal-browser';
+
+import ProvideAppContext from './components/AppContext';
+import ErrorMessage from './components/ErrorMessage';
+import NavBar from './components/NavBar';
+import Welcome from './components/Welcome';
+import 'bootstrap/dist/css/bootstrap.css';
+
+// <AppPropsSnippet>
+type AppProps = {
+  pca: IPublicClientApplication
+};
+// </AppPropsSnippet>
+
+export default function App({ pca }: AppProps): JSX.Element {
+  return (
+    <MsalProvider instance={pca}>
+      <ProvideAppContext>
+        <Router>
+          <NavBar />
+          <Container>
+            <ErrorMessage />
+            <Routes>
+              <Route path="/"
+                element={
+                  <Welcome />
+                } />
+            </Routes>
+          </Container>
+        </Router>
+      </ProvideAppContext>
+    </MsalProvider>
+  );
+}
+
+Welcome.tsx
+// <WelcomeSnippet>
+import {
+  Button,
+  Container
+} from 'react-bootstrap';
+import { AuthenticatedTemplate, UnauthenticatedTemplate } from '@azure/msal-react';
+import { useAppContext } from './AppContext';
+import Table from './Table';
+
+export default function Welcome() {
+  const app = useAppContext();
+
+  return (
+    <div className="p-5 mb-4 bg-light rounded-3">
+      <Container fluid>
+        <h1>React Graph Tutorial</h1>
+        <p className="lead">
+          This sample app shows how to use the Microsoft Graph API to access a user's data from React
+        </p>
+        <AuthenticatedTemplate>
+          <div>
+            <h4>Welcome {app.user?.displayName || ''}!</h4>
+            <p>Use the navigation bar at the top of the page to get started.</p>
+          </div>
+        </AuthenticatedTemplate>
+        <UnauthenticatedTemplate>
+          <Button color="primary" onClick={app.signIn!}>Click here to sign in</Button>
+        </UnauthenticatedTemplate>
+        <p>{app.user?.displayName || 'se loga!'}</p>
+        <Table/>
+      </Container>
+    </div>
+  );
+}
+// </WelcomeSnippet>
+
+index.tsx:
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
+
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+import {
+  PublicClientApplication,
+  EventType,
+  EventMessage,
+  AuthenticationResult
+} from '@azure/msal-browser';
+
+import config from './components/Config';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
+// <MsalInstanceSnippet>
+const msalInstance = new PublicClientApplication({
+  auth: {
+    clientId: config.appId,
+    authority: config.authority,
+    redirectUri: config.redirectUri
+  },
+  cache: {
+    cacheLocation: 'sessionStorage',
+    storeAuthStateInCookie: true
+  }
+});
+
+// Check if there are already accounts in the browser session
+// If so, set the first account as the active account
+const accounts = msalInstance.getAllAccounts();
+if (accounts && accounts.length > 0) {
+  msalInstance.setActiveAccount(accounts[0]);
+}
+
+msalInstance.addEventCallback((event: EventMessage) => {
+  if (event.eventType === EventType.LOGIN_SUCCESS && event.payload) {
+    // Set the active account - this simplifies token acquisition
+    const authResult = event.payload as AuthenticationResult;
+    msalInstance.setActiveAccount(authResult.account);
+  }
+});
+// </MsalInstanceSnippet>
+
+const root = ReactDOM.createRoot(
+  document.getElementById('root') as HTMLElement
+);
+
+root.render(
+  <React.StrictMode>
+    <App pca={msalInstance} />
+  </React.StrictMode>
+);
